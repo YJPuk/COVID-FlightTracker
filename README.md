@@ -1,9 +1,26 @@
 # COVID-FlIGHT-TRACKER
 
+## Deployed link: https://github.com/YJPuk/COVID-FlightTracker
+
 ## Project Description
 
-This is our first Project we build a COVID flight Tracker an Interactive Front-End Application  
-in this application we use two server-side APIs, client-side storage to store persistent data , Date picker and we used Tailwinds CSS framework.
+As coding students we have worked together as a team to build a COVID Flight Tracker for Project 1 of the bootcamp.
+
+Functionally it is a website that allows you to look for departing flights and information on Covid cases in the Country you are presumably travelling to.
+
+The website allows you to choose from a departing location (Country or City) based on a date you choose and it will display a list of flights with said specifications upon clicking search.
+
+All flights listed contain lots of information such as flight numbers, departure times, terminal numbers, gate numbers, arrival city code, arrival city names and country.
+
+You can then use the Country listed to check for Covid information by typing said Country into the text box and pressing search. You will then be presented with information such as total population, total Covid cases and active Covid Cases.
+
+Upon searching for flights you can also save flights via local storage by clicking on a flight listed and then pressing the save button. When you hover over a flight it changes colors of the textbox containing the flight details, upon clicking the colors stay changed. 
+
+Saved flights are displayed int he Saved Flights page that can be accessed by clicking the "Saved Flights" link below the search button for Covid info. The Saved Flights page displays the flights you have saved in the same fashion as the list in the previous page with the hover effect.You can return to the Main page by clicking on the "Main Page" button and clear your Saved Flights by pressing the "Clear Saved Flights" button
+
+In summary, The COVID flight Tracker is a Interactive Front-End Application that utilises two server-side APIs, client-side storage to store persistent data and a Date picker that works off the Tailwind CSS framework. We also used the Bulma CSS Framework for certain styling details on the website such as buttons. 
+
+This was built using HTML, CSS, Javascript powered by jQuery, Tailwind, Bulma, Multiple APIs and shared love.
 
 ## User Stories
 
@@ -93,11 +110,13 @@ Public
 
 ## API's USED
 Flight API : https://aviation-edge.com/
+
 COVID API: https://disease.sh/docs/#/
 
 ## Test and Deploy
 
 Github Deployment url: 
+
 https://dantas11.github.io/COVID-Flight-Tracker/   
 
 https://njheymann.github.io/Covid-Flight-Tracker/  
